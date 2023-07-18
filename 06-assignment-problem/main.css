@@ -1,0 +1,22 @@
+.main-boxes > div {
+  display: inline-block;
+}
+
+.main-box_one {
+  padding: 10px 20px;
+  border-style: inset;
+  margin: 10px 20px;
+  height: 300px;
+  width: 50%;
+  visibility: hidden;
+}
+
+.main-box_two {
+  padding: 10px 20px;
+  border-style: inset;
+  margin: 10px 20px;
+}
+
+.main-box_two h1:hover {
+  color: #ff1b68;
+}
