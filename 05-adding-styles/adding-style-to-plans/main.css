@@ -15,7 +15,7 @@ body {
 }
 
 .section-title {
-  color: #2ddf5c;
+  color: #23a245;
   text-align: center;
 }
 
@@ -44,13 +44,29 @@ body {
   box-shadow: 2px 2px 2px 2px rgba(70, 77, 74, 0.5);
 }
 
-.plan_subTitle {
+.plan_annotation {
   background-color: white;
-  color: rgb(77, 193, 77);
+  color: #23a245;
   text-decoration: underline;
   padding: 15px;
   box-shadow: 5px 5px 5px 5px rgba(70, 77, 74, 0.5);
   border-radius: 10px;
+}
+
+.plan_title {
+  color: #0e4f1f;
+}
+
+.plan_price {
+  color: rgb(126, 126, 126);
+}
+
+.plan--recommended .plan_price {
+  color: #0e4f1f;
+}
+
+.plan--recommended .plan_title {
+  color: white;
 }
 
 .plan_features {
@@ -61,6 +77,27 @@ body {
 
 .plan_features li {
   padding: 5px;
+}
+
+.button {
+  background: darkgreen;
+  color: white;
+  font: inherit;
+  border: 1px solid darkgreen;
+  padding: 5px;
+  border-radius: 10px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.button:hover,
+.button:active {
+  background-color: white;
+  color: darkgreen;
+}
+
+.button:focus {
+  outline: none;
 }
 
 .main-header {
