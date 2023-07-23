@@ -16,6 +16,7 @@ body {
 
 .section-title {
   color: #2ddf5c;
+  text-align: center;
 }
 
 #product-overview h1 {
@@ -35,6 +36,31 @@ body {
   display: inline-block;
   width: 30%;
   vertical-align: middle;
+}
+
+.plan--recommended {
+  background: #23a245;
+  color: white;
+  box-shadow: 2px 2px 2px 2px rgba(70, 77, 74, 0.5);
+}
+
+.plan_subTitle {
+  background-color: white;
+  color: rgb(77, 193, 77);
+  text-decoration: underline;
+  padding: 15px;
+  box-shadow: 5px 5px 5px 5px rgba(70, 77, 74, 0.5);
+  border-radius: 10px;
+}
+
+.plan_features {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+.plan_features li {
+  padding: 5px;
 }
 
 .main-header {
